@@ -1,0 +1,886 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 30px;
+        --font_size_title_big: 30px;
+    }
+
+
+    .modal_open .wrap
+    {
+        transform: none;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    .header_wrap
+    {
+        margin-bottom: 32px;
+    }
+
+
+    header .info .cont
+    {
+        min-height: 68px;
+    }
+
+
+    header .logo img
+    {
+        height: 32px;
+    }
+
+
+    header .main_menu
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    header .responsive_menu .more_btn
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    header .callback_btn
+    {
+        display: none;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 20px;
+    }
+
+
+    header .contacts .time
+    {
+        font-size: 12px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(100% + 4px);
+    }
+
+    .block_head .title.big
+    {
+        letter-spacing: 0;
+    }
+
+
+    .block_head .desc
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 22px;
+    }
+
+
+    .text_block table
+    {
+        width: 800px;
+    }
+
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding: 7px 15px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding: 40px 0;
+    }
+
+
+    .first_section .title
+    {
+        font-size: 36px;
+    }
+
+
+    .first_section .sub_title
+    {
+        font-size: 20px;
+    }
+
+
+    .first_section .btn
+    {
+        font-size: 15px;
+
+        margin-top: 32px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .code
+    {
+        font-size: 120px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .list
+    {
+        padding: 0;
+    }
+
+
+
+    /*---------------
+        Portfolio
+    ---------------*/
+    .portfolio .row,
+    .portfolio .row.mini
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .portfolio .row > *,
+    .portfolio .row.mini > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .portfolio .item .info,
+    .portfolio .row.mini .item .info
+    {
+        padding: 20px 19px 19px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .advantages .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .advantages .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .advantages .row > *
+    {
+        display: inline-block;
+
+        width: 240px;
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .advantages .row > * + *
+    {
+        margin-left: 36px;
+    }
+
+
+
+    /*--------------------
+        Contacts block
+    --------------------*/
+    .contacts_block .map_wrap
+    {
+        display: flex;
+        flex-direction: column;
+
+        min-height: 0;
+        padding: 0;
+    }
+
+
+    .contacts_block .map
+    {
+        position: relative;
+
+        height: 360px;
+
+        order: 2;
+    }
+
+
+    .contacts_block .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_block .logo img
+    {
+        height: 32px;
+    }
+
+
+    .contacts_block .phone
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_block .email
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback .manager
+    {
+        padding-left: 220px;
+    }
+
+
+
+    /*--------------
+        Internet
+    --------------*/
+    .internet .item .name
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .internet .item .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+
+    /*--------------
+        Sewerage
+    --------------*/
+    .sewerage .head .title
+    {
+        font-size: 32px;
+    }
+
+
+    .sewerage .head .sub_title
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Stock
+    -----------*/
+    .stock .title
+    {
+        font-size: 22px;
+    }
+
+
+    .stock .exp
+    {
+        line-height: 16px;
+
+        margin-top: 16px;
+    }
+
+
+    .stock .desc
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .stock .form .line
+    {
+        width: calc(50% - 8px);
+    }
+
+    .stock .form > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .stock .form .submit
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .stock .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Highlights
+    ----------------*/
+    .highlights .compare .tab_content.active
+    {
+        padding: 20px;
+    }
+
+
+    .highlights .product .product_name
+    {
+        font-size: 24px;
+    }
+
+
+    .highlights .product .exp
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .highlights .product .features
+    {
+        margin-left: 0;
+    }
+
+    .highlights .product .features > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*------------
+        Prices
+    ------------*/
+    .prices .table_wrap
+    {
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin-right: -24px;
+        margin-left: -24px;
+    }
+
+
+    .prices table
+    {
+        width: 940px;
+    }
+
+
+    .prices table th,
+    .prices table td
+    {
+        padding: 15px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .info .features > *
+    {
+        width: calc(50% - 8px);
+    }
+
+
+    .product_info .buy .price
+    {
+        width: calc(50% - 4px);
+    }
+
+    .product_info .buy .buy_btn
+    {
+        width: calc(50% - 4px);
+        margin-left: auto;
+    }
+
+
+
+    /*------------------------
+        Optional equipment
+    ------------------------*/
+    .optional_equipment .item .thumb
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .optional_equipment .item .thumb + *
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .optional_equipment .item .buy .price
+    {
+        width: calc(50% - 4px);
+    }
+
+    .optional_equipment .item .buy .buy_btn
+    {
+        width: calc(50% - 4px);
+        margin-left: auto;
+    }
+
+
+
+    /*----------------
+        Info block
+    ----------------*/
+    .info_block .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .info_block .title a
+    {
+        white-space: nowrap;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .shadow
+    {
+        overflow: visible;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+    }
+
+
+    .certs .block_head
+    {
+        padding: 0 24px;
+    }
+
+
+    .certs .images
+    {
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .certs .images .row
+    {
+        display: block;
+        overflow: auto;
+
+        padding: 0;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .certs .images .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .certs .images .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .certs .images .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .certs .images .row > * + *
+    {
+        margin-left: -24px;
+    }
+
+
+
+    /*----------
+        Calc
+    ----------*/
+    .calc .head
+    {
+        padding: 16px 20px;
+    }
+
+
+    .calc .head .steps .item
+    {
+        font-size: 16px;
+        line-height: 38px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+    .calc .head .steps .item + .item
+    {
+        margin-left: 20px;
+    }
+
+
+    .calc .head .steps .item:before,
+    .calc .head .steps .item:last-child:after
+    {
+        width: 20px;
+    }
+
+
+    .calc .step
+    {
+        padding: 28px 24px 40px;
+    }
+
+
+    .calc .step .range
+    {
+        margin-top: 32px;
+    }
+
+    .calc .step .range .box
+    {
+        width: 232px;
+    }
+
+
+    .calc .step .water_points .row
+    {
+        margin-left: 0;
+    }
+
+    .calc .step .water_points .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .calc .step .who_will_do label
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .calc .step .who_will_do label + label
+    {
+        margin-top: 48px;
+    }
+
+    .calc .step .who_will_do label:first-child div,
+    .calc .step .who_will_do label:last-child div
+    {
+        border-radius: 5px;
+    }
+
+
+    .calc .step .btns
+    {
+        padding-top: 24px;
+    }
+
+    .calc .step .btns .btn
+    {
+        width: 144px;
+    }
+
+
+
+    /*--------------------
+        Products block
+    --------------------*/
+    .products_block .tab_content.active
+    {
+        padding: 20px;
+    }
+
+
+    .products_block .product .product_name
+    {
+        font-size: 24px;
+    }
+
+
+    .products_block .product .exp
+    {
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+
+    .products_block .product .features
+    {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .products_block .product .features > *
+    {
+        display: block;
+
+        width: calc(50% - 20px);
+        min-height: 0;
+        margin-bottom: 20;
+        margin-left: 20px;
+        padding-top: 60px;
+        padding-left: 0;
+
+        text-align: center;
+    }
+
+    .products_block .product .features .icon
+    {
+        top: -4px;
+        right: 0;
+        left: 0;
+
+        margin: auto;
+
+        transform: scale(.9);
+    }
+
+
+    .products_block .product .price,
+    .products_block .product .buy_btn
+    {
+        width: calc(50% - 6px);
+    }
+
+    .products_block .product .price .new
+    {
+        font-size: 22px;
+    }
+
+
+    .products_block .representations
+    {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+
+    .products_block .representations .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .products_block .representations .row > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .products_block .information
+    {
+        margin-top: 48px;
+    }
+
+
+    .products_block .better .data
+    {
+        width: calc(100% + 40px);
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+
+
+    .products_block .optional_equipment .item .thumb,
+    .products_block .optional_equipment .item .thumb + *
+    {
+        width: 100%;
+    }
+
+
+    .products_block .mob_links
+    {
+        display: block;
+    }
+
+
+    .products_block .all_btn
+    {
+        width: calc(100% + 40px);
+        margin-top: 40px;
+        margin-right: -20px;
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .col
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        order: 2;
+    }
+
+
+    footer .copyright
+    {
+        line-height: 21px;
+
+        text-align: center;
+    }
+
+
+    footer .links
+    {
+        justify-content: center;
+    }
+
+
+    footer .contacts
+    {
+        width: 100%;
+        margin: 0;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 100%;
+    }
+
+
+    .modal .close_btn
+    {
+        right: 0;
+
+        width: 40px;
+        height: 40px;
+
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, .3);
+        background-size: 100% 100%;
+    }
+
+
+    .modal_title
+    {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
