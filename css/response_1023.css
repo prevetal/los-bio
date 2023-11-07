@@ -34,6 +34,16 @@
 
 
 
+    /*------------
+        Header
+    ------------*/
+    header .departure_btn
+    {
+        display: none;
+    }
+
+
+
     /*-------------
         Sidebar
     -------------*/
@@ -405,6 +415,91 @@
     .products_block .all_btn
     {
         font-size: 16px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .contacts .email
+    {
+        font-size: 18px;
+    }
+
+
+
+    footer .menu
+    {
+        width: 100%;
+
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+
+
+    footer .menu + .menu
+    {
+        margin-top: 20px;
+    }
+
+
+    footer .menu .title
+    {
+        position: relative;
+
+        display: inline-block;
+
+        margin-bottom: 12px;
+        padding-right: 16px;
+
+        cursor: pointer;
+        vertical-align: top;
+        pointer-events: auto;
+    }
+
+    footer .menu .title:after
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+
+        display: block;
+
+        width: 6px;
+        height: 6px;
+        margin: auto 0;
+
+        content: '';
+        transition: .2s linear;
+        transform: rotate(-45deg);
+
+        opacity: .5;
+        border-bottom: 1px solid;
+        border-left: 1px solid;
+    }
+
+    footer .menu .title.active:after
+    {
+        top: 6px;
+
+        transform: rotate(-225deg);
+    }
+
+
+    footer .menu .items,
+    footer .menu .items.columns
+    {
+        display: none;
+
+        padding-bottom: 16px;
+    }
+
+
+    footer .menu .items.columns > * + *
+    {
+        margin-top: 12px;
+        margin-left: 0;
     }
 
 

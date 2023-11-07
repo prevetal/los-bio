@@ -57,6 +57,16 @@
     }
 
 
+    header .responsive_menu .dropdown .item > a,
+    header .responsive_menu .dropdown .item > button
+    {
+        line-height: 48px;
+
+        height: 48px;
+        padding: 0 20px;
+    }
+
+
     header .contacts
     {
         display: none;
@@ -580,40 +590,6 @@
     {
         margin-right: auto;
         margin-left: auto;
-    }
-
-
-
-    /*------------
-        Footer
-    ------------*/
-    footer .copyright
-    {
-        font-size: 12px;
-        line-height: 18px;
-
-        padding: 0 20px;
-    }
-
-
-    footer .links
-    {
-        display: block;
-
-        margin-top: 20px;
-        margin-left: 0;
-
-        text-align: center;
-    }
-
-    footer .links > *
-    {
-        margin-left: 0;
-    }
-
-    footer .links > * + *
-    {
-        margin-top: 4px;
     }
 
 

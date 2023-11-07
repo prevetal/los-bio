@@ -80,18 +80,6 @@
     }
 
 
-    header .contacts .phone
-    {
-        font-size: 20px;
-    }
-
-
-    header .contacts .time
-    {
-        font-size: 12px;
-    }
-
-
 
     /*----------------
         Block head
@@ -816,42 +804,6 @@
         margin-right: -20px;
         margin-bottom: -20px;
         margin-left: -20px;
-    }
-
-
-
-    /*------------
-        Footer
-    ------------*/
-    footer .col
-    {
-        width: 100%;
-        margin-top: 24px;
-
-        order: 2;
-    }
-
-
-    footer .copyright
-    {
-        line-height: 21px;
-
-        text-align: center;
-    }
-
-
-    footer .links
-    {
-        justify-content: center;
-    }
-
-
-    footer .contacts
-    {
-        width: 100%;
-        margin: 0;
-
-        text-align: center;
     }
 
 

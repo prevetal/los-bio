@@ -613,6 +613,44 @@ document.addEventListener('DOMContentLoaded', function () {
 				: $(this).closest('.data').removeClass('type2')
 		})
 	})
+
+
+	if (is_touch_device()) {
+		const subMenus = document.querySelectorAll('header .main_menu .sub_menu')
+
+		// Подменю на тач скрине
+		$('header .main_menu .item > a.sub_link').addClass('touch_link')
+
+		$('body').on('click', 'header .main_menu .item > a.sub_link', function (e) {
+			const $dropdown = $(this).next()
+
+			if ($dropdown.css('visibility') === 'hidden') {
+				e.preventDefault()
+
+				subMenus.forEach(el => el.classList.remove('show'))
+				$dropdown.addClass('show')
+
+				BODY.style = 'cursor: pointer;'
+			}
+		})
+
+		// Закрываем под. меню при клике за её пределами
+		document.addEventListener('click', e => {
+			if ($(e.target).closest('.main_menu').length === 0) {
+				subMenus.forEach(el => el.classList.remove('show'))
+
+				BODY.style = 'cursor: default;'
+			}
+		})
+	}
+
+
+	// Моб. подвал
+	$('footer .menu .title').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
 })
 
 
