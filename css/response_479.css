@@ -594,6 +594,113 @@
 
 
 
+    /*------------------------
+        Cooperation scheme
+    ------------------------*/
+    .cooperation_scheme .row
+    {
+        margin-bottom: -32px;
+        margin-left: 0;
+    }
+
+    .cooperation_scheme .row > *
+    {
+        width: 100%;
+        margin-bottom: 32px;
+        margin-left: 0;
+    }
+
+
+    .cooperation_scheme .step .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper-slide
+    {
+        width: 292px;
+    }
+
+
+    .reviews .review
+    {
+        padding-left: 0;
+    }
+
+
+    .reviews .review .data
+    {
+        padding: 19px;
+    }
+
+
+    .reviews .review .photo
+    {
+        top: 20px;
+        left: 20px;
+
+        width: 60px;
+        height: 60px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 15px;
+
+        display: flex;
+
+        min-height: 60px;
+        padding-left: 80px;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+
+    /*-------------------
+        Main sections
+    -------------------*/
+    .main_sections .categories a,
+    .main_sections .categories .spoler_btn
+    {
+        padding: 8px 20px;
+    }
+
+
+    .main_sections .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .main_sections .item .thumb
+    {
+        height: 200px;
+    }
+
+
+    .main_sections .item .count
+    {
+        font-size: 14px;
+    }
+
+
+    .main_sections .item .price
+    {
+        font-size: 15px;
+    }
+
+
+
     /*-----------
         PopUp
     -----------*/

@@ -198,6 +198,142 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
+	// Основные разделы
+	const mainSectionsSliders = [],
+		mainSections = document.querySelectorAll('.main_sections .swiper')
+
+	mainSections.forEach(function (el, i) {
+		el.classList.add('main_sections_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			preloadImages: false,
+			lazy: {
+				enabled: true,
+				checkInView: true,
+				loadOnTransitionStart: true,
+				loadPrevNext: true
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 24,
+					slidesPerView: 'auto'
+				},
+				1024: {
+					spaceBetween: 24,
+					slidesPerView: 3
+				},
+				1280: {
+					spaceBetween: 40,
+					slidesPerView: 3
+				}
+			}
+		}
+
+		mainSectionsSliders.push(new Swiper('.main_sections_s' + i, options))
+	})
+
+
+	// Основные разделы
+	const popularProductsSliders = [],
+		popularProducts = document.querySelectorAll('.products .swiper')
+
+	popularProducts.forEach(function (el, i) {
+		el.classList.add('products_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			preloadImages: false,
+			lazy: {
+				enabled: true,
+				checkInView: true,
+				loadOnTransitionStart: true,
+				loadPrevNext: true
+			},
+			spaceBetween: 24,
+			slidesPerView: 'auto'
+		}
+
+		popularProductsSliders.push(new Swiper('.products_s' + i, options))
+	})
+
+
+	// Отзывы
+	const reviewsSliders = [],
+		reviews = document.querySelectorAll('.reviews .swiper')
+
+	reviews.forEach(function (el, i) {
+		el.classList.add('reviews_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			preloadImages: false,
+			lazy: {
+				enabled: true,
+				checkInView: true,
+				loadOnTransitionStart: true,
+				loadPrevNext: true
+			},
+			breakpoints: {
+				0: {
+					spaceBetween: 20,
+					slidesPerView: 'auto'
+				},
+				480: {
+					spaceBetween: 24,
+					slidesPerView: 'auto'
+				},
+				1024: {
+					spaceBetween: 24,
+					slidesPerView: 2
+				},
+				1280: {
+					spaceBetween: 60,
+					slidesPerView: 2
+				}
+			}
+		}
+
+		reviewsSliders.push(new Swiper('.reviews_s' + i, options))
+	})
+
+
+	// Основные разделы - спойлер
+	$('.main_sections .categories .spoler_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+
+		$(this).hasClass('active')
+			? $('.main_sections .categories .hide').fadeIn(300)
+			: $('.main_sections .categories .hide').hide()
+	})
+
+
 	// Меню
 	responsiveMenu = $('.responsive_menu').responsiveMenu({
 		containerClass: 'main_menu',

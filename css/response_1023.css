@@ -419,6 +419,86 @@
 
 
 
+    /*------------------------
+        Cooperation scheme
+    ------------------------*/
+    .cooperation_scheme .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .cooperation_scheme .step .name,
+    .cooperation_scheme .step .desc
+    {
+        padding: 0 20px;
+    }
+
+
+
+    /*-------------------
+        Main sections
+    -------------------*/
+    .main_sections .categories
+    {
+        margin-bottom: 16px;
+        margin-left: -8px;
+    }
+
+    .main_sections .categories > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .main_sections .categories a,
+    .main_sections .categories .spoler_btn
+    {
+        font-size: 13px;
+
+        padding: 8px 16px;
+    }
+
+
+    .main_sections .swiper .swiper-button-prev,
+    .main_sections .swiper .swiper-button-next
+    {
+        display: none;
+    }
+
+
+    .main_sections .swiper-slide
+    {
+        visibility: visible;
+
+        width: 320px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .main_sections .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .main_sections .item .thumb
+    {
+        height: 220px;
+    }
+
+
+    .main_sections .item .count
+    {
+        font-size: 15px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

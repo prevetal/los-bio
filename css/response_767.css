@@ -808,6 +808,111 @@
 
 
 
+    /*------------------------
+        Cooperation scheme
+    ------------------------*/
+    .cooperation_scheme .row
+    {
+        margin-bottom: -32px;
+        margin-left: -16px;
+    }
+
+    .cooperation_scheme .row > *
+    {
+        width: calc(50% - 16px);
+        margin-bottom: 32px;
+        margin-left: 16px;
+    }
+
+
+    .cooperation_scheme .step .thumb
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .cooperation_scheme .step .name
+    {
+        font-size: 16px;
+    }
+
+
+    .cooperation_scheme .step .name,
+    .cooperation_scheme .step .desc
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper
+    {
+        margin: 0;
+    }
+
+
+    .reviews .swiper-slide
+    {
+        visibility: visible;
+
+        width: 360px;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .reviews .swiper-button-prev,
+    .reviews .swiper-button-next
+    {
+        display: none;
+    }
+
+
+    .reviews .review .data
+    {
+        padding: 27px 27px 27px 39px;
+    }
+
+
+    .reviews .review .photo
+    {
+        top: 20px;
+
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 16px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .reviews .review .text
+    {
+        font-size: 13px;
+    }
+
+
+
+    /*-------------------
+        Main sections
+    -------------------*/
+    .main_sections .swiper-slide
+    {
+        width: 280px;
+    }
+
+
+
     /*-----------
         PopUp
     -----------*/

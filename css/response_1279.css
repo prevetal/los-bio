@@ -844,6 +844,147 @@
 
 
 
+    /*------------------------
+        Cooperation scheme
+    ------------------------*/
+    .cooperation_scheme .step
+    {
+        padding-top: 24px;
+    }
+
+
+    .cooperation_scheme .step:before
+    {
+        font-size: 24px;
+        line-height: 46px;
+
+        width: 52px;
+        height: 52px;
+
+        border-width: 3px;
+    }
+
+
+    .cooperation_scheme .step .name
+    {
+        font-size: 17px;
+
+        padding: 0;
+    }
+
+
+    .cooperation_scheme .step .desc
+    {
+        font-size: 13px;
+
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Reviews
+    -------------*/
+    .reviews .swiper
+    {
+        margin: 0 40px;
+    }
+
+
+    .reviews .swiper-button-prev
+    {
+        left: -48px;
+    }
+
+    .reviews .swiper-button-next
+    {
+        right: -48px;
+    }
+
+
+    .reviews .review .data
+    {
+        padding: 39px 39px 39px 59px;
+    }
+
+
+    .reviews .review .author
+    {
+        font-size: 17px;
+
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Main sections
+    -------------------*/
+    .main_sections .categories
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .main_sections .categories a,
+    .main_sections .categories .spoler_btn
+    {
+        padding: 10px 20px;
+    }
+
+
+    .main_sections .item
+    {
+        padding: 24px 24px 28px;
+    }
+
+
+    .main_sections .item .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .main_sections .item .thumb
+    {
+        height: 240px;
+        margin-bottom: 16px;
+    }
+
+
+    .main_sections .item .count
+    {
+        font-size: 16px;
+    }
+
+
+    .main_sections .item .price
+    {
+        font-size: 16px;
+
+        margin-top: 16px;
+    }
+
+    .main_sections .item .price span
+    {
+        font-size: 22px;
+    }
+
+
+    .main_sections .item .link
+    {
+        font-size: 15px;
+        line-height: 44px;
+
+        width: 164px;
+        height: 44px;
+        margin-top: 16px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
