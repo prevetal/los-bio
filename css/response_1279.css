@@ -102,12 +102,12 @@
 
     header .main_menu
     {
+        order: 3;
+
         width: 76px;
         height: 76px;
         margin-right: -24px;
         margin-left: 8px;
-
-        order: 3;
     }
 
 
@@ -664,12 +664,9 @@
     /*------------
         Better
     ------------*/
-    .better .data
+    .better
     {
-        width: calc(100% + 48px);
-        margin-right: -24px;
-        margin-left: -24px;
-        padding: 40px 24px 48px;
+        padding: 40px 0 48px;
     }
 
 
@@ -679,12 +676,12 @@
     -----------*/
     .certs .block_head
     {
+        order: 0;
+
         width: 100%;
         margin-bottom: 16px;
 
         text-align: center;
-
-        order: 0;
     }
 
 
@@ -981,6 +978,57 @@
         width: 164px;
         height: 44px;
         margin-top: 16px;
+    }
+
+
+
+    /*----------
+        Gift
+    ----------*/
+    .gift
+    {
+        padding: 40px 0;
+    }
+
+
+    .gift .title
+    {
+        font-size: 24px;
+    }
+
+
+    .gift .form
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .tags
+    {
+        padding: 0;
+    }
+
+
+    .catalog .tags .btn,
+    .catalog .tags .spoler_btn
+    {
+        padding: 8px 16px;
+    }
+
+
+    .catalog .grid
+    {
+        padding: 0;
+    }
+
+
+    .catalog .product .name
+    {
+        font-size: 22px;
     }
 
 

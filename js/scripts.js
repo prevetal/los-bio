@@ -334,6 +334,18 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 
+	// Каталог - Метки - спойлер
+	$('.catalog .tags .spoler_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+
+		$(this).hasClass('active')
+			? $('.catalog .tags .hide').fadeIn(300)
+			: $('.catalog .tags .hide').hide()
+	})
+
+
 	// Меню
 	responsiveMenu = $('.responsive_menu').responsiveMenu({
 		containerClass: 'main_menu',

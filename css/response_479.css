@@ -311,13 +311,12 @@
     .product_info .buy .price
     {
         display: flex;
+        align-content: flex-end;
+        align-items: flex-end;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         width: 100%;
-
-        justify-content: space-between;
-        align-items: flex-end;
-        align-content: flex-end;
-        flex-wrap: wrap;
     }
 
     .product_info .buy .price2
@@ -654,14 +653,13 @@
         font-size: 15px;
 
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
         min-height: 60px;
         padding-left: 80px;
-
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
     }
 
 
@@ -697,6 +695,80 @@
     .main_sections .item .price
     {
         font-size: 15px;
+    }
+
+
+
+    /*----------
+        Gift
+    ----------*/
+    .gift .form .line
+    {
+        width: 100%;
+    }
+
+    .gift .form > * + *
+    {
+        margin-top: 8px;
+        margin-left: 0;
+    }
+
+
+    .gift .form .submit
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .tags .row
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .catalog .tags .row > *
+    {
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+    .catalog .tags .btn,
+    .catalog .tags .spoler_btn
+    {
+        font-size: 12px;
+
+        padding: 5px 10px;
+    }
+
+
+    .catalog .grid
+    {
+        margin-bottom: -32px;
+        margin-left: -20px;
+    }
+
+    .catalog .grid > *
+    {
+        width: calc(50% - 20px);
+        margin-bottom: 32px;
+        margin-left: 20px;
+    }
+
+
+    .catalog .product .thumb
+    {
+        height: 160px;
+    }
+
+
+    .catalog .product .name
+    {
+        font-size: 16px;
     }
 
 

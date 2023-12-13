@@ -659,9 +659,9 @@
     /*------------
         Better
     ------------*/
-    .better .data
+    .better
     {
-        padding: 40px 48px 48px;
+        padding: 40px 0 48px;
     }
 
 
@@ -844,6 +844,28 @@
     .products .swiper .swiper-button-next
     {
         display: none;
+    }
+
+
+
+    /*----------
+        Gift
+    ----------*/
+    .gift
+    {
+        padding: 48px 0;
+    }
+
+
+    .gift .title
+    {
+        font-size: 26px;
+    }
+
+
+    .gift .form > * + *
+    {
+        margin-left: 24px;
     }
 
 

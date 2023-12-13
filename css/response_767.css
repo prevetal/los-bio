@@ -39,6 +39,16 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .mob_hide
+    {
+        display: none;
+    }
+
+
+
     /*------------
         Header
     ------------*/
@@ -270,9 +280,9 @@
     {
         position: relative;
 
-        height: 360px;
-
         order: 2;
+
+        height: 360px;
     }
 
 
@@ -489,9 +499,9 @@
 
     .optional_equipment .item .thumb + *
     {
-        width: 100%;
-
         order: 2;
+
+        width: 100%;
     }
 
 
@@ -909,6 +919,91 @@
     .main_sections .swiper-slide
     {
         width: 280px;
+    }
+
+
+
+    /*----------
+        Gift
+    ----------*/
+    .gift .title
+    {
+        font-size: 22px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .gift .desc
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .gift .form .line
+    {
+        width: calc(50% - 8px);
+    }
+
+    .gift .form > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .gift .form .submit
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .gift .form .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .gift .img
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Catalog
+    -------------*/
+    .catalog .grid > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .catalog .product .thumb
+    {
+        height: 200px;
+    }
+
+
+    .catalog .product .name
+    {
+        font-size: 18px;
+    }
+
+
+    .catalog .product .desc
+    {
+        font-size: 13px;
+    }
+
+
+    .catalog .product .price
+    {
+        font-size: 16px;
     }
 
 
