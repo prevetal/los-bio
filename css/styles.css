@@ -8009,8 +8009,8 @@ aside
 .catalog .grid
 {
     display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
+    align-content: stretch;
+    align-items: stretch;
     flex-wrap: wrap;
     justify-content: flex-start;
 
@@ -8029,6 +8029,9 @@ aside
 
 .catalog .product
 {
+    display: flex;
+    flex-direction: column;
+
     text-align: center;
 }
 
@@ -8064,6 +8067,8 @@ aside
 {
     font-size: 24px;
     font-weight: 700;
+
+    margin-bottom: auto;
 }
 
 .catalog .product .name a
